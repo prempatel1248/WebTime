@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "WebTime",
+    "version": "1.0.1",
+    "description": "Keep track of how much time you spend on different websites.",
+    "permissions": [
+        "storage",
+        "tabs",
+        "windows"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "WebTime",
+        "default_icon": "stopwatch-icon.png"
+    },
+    "icons": {
+        "128": "stopwatch-icon.png"
+    }
+}

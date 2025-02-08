@@ -1,0 +1,113 @@
+body {
+    min-width: 300px;
+    min-height: 500px;
+
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light-mode {
+    background-color: rgb(225, 225, 225);
+    color: black;
+}
+
+.dark-mode {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+
+ul {
+    height: 400px;
+    margin: 10px;
+    padding: 5px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: rgb(128, 128, 128) transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+}
+
+li {
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+
+.fa-circle-half-stroke {
+    font-size: 20px;
+    color: rgb(128, 128, 128);
+}
+
+.fa-circle-half-stroke:hover {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+}
+
+hr {
+    border: 1px solid rgb(128, 128, 128);
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-top: 9px;
+}
+
+.activeTab {
+    color: red;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset-btn {
+    padding: 0px 10px;
+    color: red;
+    border: 1px solid rgb(128, 128, 128);
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#reset-btn:hover {
+    cursor: pointer;
+}
+
+.dark-mode #reset-btn:hover {
+    background-color: rgb(60, 60, 60);
+}
+
+.light-mode #reset-btn:hover {
+    background-color: rgb(195, 195, 195);
+}
